@@ -4,6 +4,7 @@ enter_number = gets.chomp.to_i
 puts "Now choose an operator (+, -, /, *) and press Enter!"
 
 #haha, i add new line
+#I am wrong 
 while true
 	enter_operator = gets.chomp
 	if ['+','-','/','*'].include? enter_operator
